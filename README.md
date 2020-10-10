@@ -44,6 +44,7 @@ SNS
 ・自炊をする人（主婦、一人暮らし）　→　買い物に行く時
 
 ## 設計書
+https://drive.google.com/drive/u/0/folders/1X83hIdjHy3CTDl8x_JEkVQJ61WZoAlaN
 
 ### 機能一覧
 https://docs.google.com/spreadsheets/d/159LK5unBpElta-ktCnvGVn_LfKI0fEvZS1HFDStfcdA/edit#gid=708605405
