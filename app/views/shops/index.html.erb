@@ -1,0 +1,11 @@
+<h1>店舗一覧</h1>
+
+<% @shops.each do |shop| %>
+    <%= shop.shop_name %>
+    <%= shop.shop_postal_code %>
+    <%= shop.shop_address %>
+    <%= shop.email %>
+
+    <%= link_to '詳しく見る', shop_path(shop) %>
+    <%= link_to "削除", shop_path(shop.id), method: :delete %>
+<% end %>

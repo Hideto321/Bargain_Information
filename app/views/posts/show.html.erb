@@ -1,0 +1,8 @@
+<h1>投稿詳細</h1>
+
+
+    <%= @post.product_image %>
+    <%= @post.product %>
+    <%= @post.price %>
+    <%= @post.product_comment %>
+    <%= link_to "削除", post_path(@post.id), method: :delete %>
