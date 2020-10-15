@@ -7,6 +7,7 @@ class ShopsController < ApplicationController
   end
 
   def edit
+    @shop = Shop.find(params[:id])
   end
 
   def update

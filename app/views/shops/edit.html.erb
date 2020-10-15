@@ -1,2 +1,17 @@
-<h1>Shops#edit</h1>
-<p>Find me in app/views/shops/edit.html.erb</p>
+<h1>店舗情報編集</h1>
+
+<%= form_for(@shop) do |f| %>
+    <h4>店舗名</h4>
+    <%= f.text_field :shop_name %>
+    <h4>郵便番号</h4>
+    <%= f.text_field :shop_postal_code %>
+    <h4>店舗住所</h4>
+    <%= f.text_area :shop_address %>
+    <h4>メールアドレス</h4>
+    <%= f.text_field :shop_email %>
+    <br><%= f.submit '保存' %></br>
+
+    <%= link_to "Show", shop_path(@shop) %>
+    <%= link_to "Back", shops_path %>
+
+<% end %>
